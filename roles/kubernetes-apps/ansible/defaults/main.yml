@@ -35,7 +35,7 @@ dns_autoscaler_deployment_nodeselector: "kubernetes.io/os: linux"
 #   release: prometheus-stack
 
 # Netchecker
-deploy_netchecker: false
+deploy_netchecker: true
 netchecker_port: 31081
 agent_report_interval: 15
 netcheck_namespace: default
